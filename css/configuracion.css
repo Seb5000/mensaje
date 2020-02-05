@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding: 0;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    background: rgba(200,200,200,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    height: 50rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4rem;
+}
+
+.conf{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.entrada{
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin: 10px 5px;
+}
+
+.etiqueta{
+    margin: 10px 10px;
+}
